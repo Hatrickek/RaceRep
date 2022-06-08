@@ -1,0 +1,35 @@
+# Prerequisites
+*.d
+
+#workspace
+/x64
+/projectfiles
+*.json
+/.vscode
+/.vs
+*.code-workspace
+
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
