@@ -1,0 +1,50 @@
+---
+Language: Cpp
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCaseColons: true
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignOperands: true
+# LambdaBodyIndentation: OuterScope
+AlignEscapedNewlines: Left
+PackConstructorInitializers: CurrentLine
+BreakArrays: true
+AlignTrailingComments:
+  Kind: Always
+  OverEmptyLines: 2
+AllowShortFunctionsOnASingleLine: All
+AllowShortLambdasOnASingleLine: Inline
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: false
+DerivePointerAlignment: false
+PointerAlignment: Left
+QualifierAlignment: Left
+BinPackParameters: OnePerLine
+BinPackArguments: false
+BreakBeforeBraces: Attach
+BreakBeforeBinaryOperators: None
+BreakAfterReturnType: Automatic
+BreakTemplateDeclarations: Yes 
+BreakBeforeTernaryOperators: true
+BreakAfterAttributes: Always
+Cpp11BracedListStyle: true
+AlignAfterOpenBracket: Align
+ColumnLimit: 120
+NamespaceIndentation: None
+FixNamespaceComments: true
+IndentCaseLabels: true
+IndentPPDirectives: BeforeHash
+SortUsingDeclarations: LexicographicNumeric
+SortIncludes: false
+InsertNewlineAtEOF: true
+MacroBlockBegin: ""
+MacroBlockEnd: ""
+MaxEmptyLinesToKeep: 1
+SpacesInAngles: false
+TabWidth: 2
+UseTab: Never
+PenaltyBreakAssignment: 300
+#PenaltyBreakBeforeFirstCallParameter: 300
